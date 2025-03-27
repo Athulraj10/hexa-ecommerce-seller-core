@@ -9,6 +9,7 @@ export const rabbitMqConfig = {
     durable: true, // Make queues durable (survive broker restarts)
   },
   queues: {
+    seller_queue:"seller_queue",
     auth_queue: 'auth_queue',
     payment_queue: 'payment_queue',
     product_queue: 'product_queue',
