@@ -42,3 +42,48 @@ touch src/seller/interfaces/seller.interface.ts
 touch src/seller/interfaces/seller-orders.interface.ts
 touch src/seller/interfaces/seller-products.interface.ts
 touch src/seller/interfaces/seller-transactions.interface.ts
+
+
+src/
+ ├── seller/  📁 (Main seller module)
+ │   ├── controllers/
+ │   │   ├── seller.controller.ts
+ │   │   ├── seller-orders.controller.ts
+ │   │   ├── seller-products.controller.ts
+ │   │   ├── seller-transactions.controller.ts
+ │   │
+ │   ├── services/
+ │   │   ├── seller.service.ts
+ │   │   ├── seller-orders.service.ts
+ │   │   ├── seller-products.service.ts
+ │   │   ├── seller-transactions.service.ts
+ │   │
+ │   ├── repositories/
+ │   │   ├── seller.repository.ts
+ │   │   ├── seller-orders.repository.ts
+ │   │   ├── seller-products.repository.ts
+ │   │   ├── seller-transactions.repository.ts
+ │   │
+ │   ├── dto/
+ │   │   ├── create-seller.dto.ts
+ │   │   ├── update-seller.dto.ts
+ │   │   ├── seller-login.dto.ts
+ │   │   ├── seller-order.dto.ts
+ │   │   ├── seller-product.dto.ts
+ │   │   ├── seller-transaction.dto.ts
+ │   │
+ │   ├── entities/
+ │   │   ├── seller.entity.ts
+ │   │   ├── seller-orders.entity.ts
+ │   │   ├── seller-products.entity.ts
+ │   │   ├── seller-transactions.entity.ts
+ │   │
+ │   ├── interfaces/
+ │   │   ├── seller.interface.ts
+ │   │   ├── seller-orders.interface.ts
+ │   │   ├── seller-products.interface.ts
+ │   │   ├── seller-transactions.interface.ts
+ │   │
+ │   ├── seller.module.ts (Main seller module)
+ │
+ ├── app.module.ts
